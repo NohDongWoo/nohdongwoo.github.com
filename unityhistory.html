@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="ko-KR"> 
+<head> 
+    <meta charset="utf-8"/>
+  <title>Make A GAME! </title>
+  
+  <style>
+    
+   div ul1{color:white;}
+   
+   #topMenu {            
+                height: 30px; 
+                width: 3500px;
+        }
+        #topMenu ul li {                     
+                list-style: none;         
+                color: white;             
+                background-color: #2d2d2d;  
+                float: left;              
+                line-height: 30px;          
+                vertical-align: middle;  
+                text-align: center;       
+        }
+        #topMenu .menuLink {                               
+                text-decoration:none;                     
+                color: white;                             
+                display: block;                            
+                width: 300px;                              
+                font-size: 30px;                         
+                font-weight: bold;                        
+                font-family: "Trebuchet MS", Dotum, Arial; 
+        }
+        #topMenu .menuLink:hover {            
+                color: red;                   
+                background-color: #4d4d4d;    
+        }
+        body {
+        margin: 80;
+        font-family: Arial;
+      }
+      #fixed-menu {
+        width: 100%;
+        background-color: #ffffff;
+      }
+      #main-content {
+        width: 100%;
+      }
+      #fixed-menu li {
+        display: inline-block;
+        margin-right: 30px;
+      }
+      img {
+        max-width: 100%;
+      }
+</style>
+
+   </head>
+
+
+   <body style="background-color: black;"> 
+     
+    <a href="makegame.html" target="_self"><img src="logo2.png" alt="이미지가 표시되지 않습니다." align="center"></a>
+    <a href="makegame.html" target="_self"><img src="unitylog.png" alt="이미지가 표시되지 않습니다." align="center"></a>
+    <nav id="topMenu" >
+         <ul>
+              <li><a class="menuLink" href="unitymain.html">Unity?</a></li> 
+              <li><a class="menuLink" href="#">History</a></li> 
+              <li><a class="menuLink" href="unitymf.html">Main function</a></li>
+               <li><a class="menuLink" href="unityreg.html">Related game</a></li> 
+             </ul> 
+             
+            </nav>
+
+            
+
+            <h1 style="color:white; padding:0px 100px 0px 100px;font-size: 3em;">유니티의 역사</h1>
+            <p style="color:white;padding:0px 100px 0px 100px;font-size: 1.5em;">저사양/소규모 게임의 개발에 적합한 게임 엔진으로 2005년 6월 8일에 처음 발표되었다. <br><br>
+              스마트폰이 대중화되기 전까지는 Windows, Mac OS X 같은 PC 기반 플랫폼만 지원했으나, 2010년 Unity 3부터는 기존의 PC 플랫폼뿐만 아니라 iOS, Android 같은 모바일 플랫폼, PS3, XBOX 360, Wii 같은 콘솔 게임기 등의 다양한 플랫폼으로 확장되면서 2012년 Unity 4가 발표된 이후 유니티 엔진으로 개발된 게임들이 급격하게 늘어났다.
+              <br><br> 2015년 GDC에서 언리얼 엔진 4의 완전 무료화에 이어 유니티도 Unity 5를 정식 발표함과 동시에 개인용 무료화를 선언하였다. 그러나 완전 무료는 아니고 여러가지 조건에 따른 제약사항이 따른다.<br><br>
+                
+              <img src="unityim2.jpg" align="center"><br><br>
+                
+                현재의 유니티 엔진은 앞에서 언급한 플랫폼 이외에 VR 기기를 비롯하여 현세대에 해당하는 대부분의 플랫폼으로 개발 가능한 게임 엔진이 되었고 최신 버전은 2017년 12월 기준으로 2017.2.1버전이다.
+                 <br><br>2015년 9월에 발표한 5.2버전부터는 Windows 10 유니버셜 앱 플랫폼을 추가 지원하여 코드 작성에 있어서 Visual Studio 2015와의 연동이 가능하다.<br><br> 
+                 또한 Windows 10을 지원하기 때문에 최신 API인 DirectX 12를 실험적으로 지원하고 있다.<br><br>
+                
+                본래는 플래시가 한창 잘나가던 시절 플래시로 구현이 힘든 3D 시장 공략을 노린 3D 타겟 웹미디어 제작툴이었다.<br><br>
+                (초기 유니티 엔진은 멀티플랫폼 중 하나로 브라우저 역시 주력 지원했고, '유니티 웹 플레이어'라는 이름으로 현재까지 남아 있다.<br><br>
+                 현재는 웹플랫폼보다는 모바일 기반이 주력이 되었지만) 하지만 전문적인 게임엔진에 비해 비교적 단순하고 사용법이 쉽다는 점에 착안한 개발자들이 이를 이용해 게임을 만들기 시작하면서 아예 게임 엔진으로 방향이 선회되었다. <br><br>
+                 언리얼 엔진의 라이센스 정책 변경 전에는 유니티의 라이센스 비용이 매우 저렴하고, 여타의 고급 엔진들로 대형 프로젝트를 개발하는 것에 비해 단순한 게임들을 만들어 내기에는 비교적 쉬운 편이라서 아이폰을 필두로 한 스마트폰 게임이 새로운 블루오션으로 떠오르던 태동기에 절묘한 타이밍으로 선점하여 모바일에서 승승장구했었다.
+                 <br><br> Shiva3D와 같은 유사한 경쟁자들도 있었으나, 애셋 스토어라는 생태계의 조성에 힘입어 넓은 사용자 풀이 형성되면서 막 모바일 게임 시장이 확장되돈 시기에 독보적으로 치고 나아갔었다.<br><br>
+                
+                그러나 언리얼 엔진이 모바일 게임 시장까지 발을 넓혀가면서 그 입지가 서서히 양분화되어가는 추세로, 스마트폰도 차차 고사양화 되어가면서 고품질의 모바일 게임들이 하나둘씩 언리얼 엔진을 사용하고 있으며 저사양/소규모 프로젝트에는 유니티가 많이 쓰이고 있는 상황이다. <br><br>
+                언리얼 엔진이 교육정책에 힘을 쏟고 있는 것과 마찬가지로 유니티 역시 교육정책에 신경을 쓰고 있다.<br><br>
+                
+                유니티로 만들어진 게임영상은 유튜브 <a herf="https://www.youtube.com/results?search_query=Unity+GDC"target="_blank">Unity GDC </a>채널에서 볼 수 있다. 공식 행사에서 뽑힌 퀄리티 높은 게임들을 묶어놓은 영상들이다.<br><br>
+                
+                <img src="unityim3.png" align="center"><br><br>
+                2018년을 기점으로 Unity 5에서 2017로 버전을 변경(Unity 5에서 2017로 이름이 바뀌고 라이센스 정책도 변경되었다). 5월 06일 현재 2018.1 버전이 출시되었으며 여름에 2018.2 버전의 출시를 앞두고 있다.
+                
+              </p>
+                
+
+    
+   </body>
+
+</html>

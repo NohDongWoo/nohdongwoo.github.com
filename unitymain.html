@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="ko-KR"> 
+<head> 
+    <meta charset="utf-8"/>
+  <title>Make A GAME! </title>
+  
+  <style>
+    
+   div ul1{color:white;}
+   
+        #topMenu {            
+                height: 30px; 
+                width: 3500px;
+        }
+        #topMenu ul li {                     
+                list-style: none;         
+                color: white;             
+                background-color: #2d2d2d;  
+                float: left;              
+                line-height: 30px;          
+                vertical-align: middle;  
+                text-align: center;       
+        }
+        #topMenu .menuLink {                               
+                text-decoration:none;                     
+                color: white;                             
+                display: block;                            
+                width: 300px;                              
+                font-size: 30px;                         
+                font-weight: bold;                        
+                font-family: "Trebuchet MS", Dotum, Arial; 
+        }
+        #topMenu .menuLink:hover {            
+                color: red;                   
+                background-color: #4d4d4d;    
+        }
+        body {
+        margin: 80;
+        font-family: Arial;
+      }
+      #fixed-menu {
+        width: 100%;
+        background-color: #ffffff;
+      }
+      #main-content {
+        width: 100%;
+      }
+      #fixed-menu li {
+        display: inline-block;
+        margin-right: 30px;
+      }
+      img {
+        max-width: 100%;
+      }
+</style>
+
+   </head>
+
+
+   <body style="background-color: black;"> 
+     
+    <a href="makegame.html" target="_self"><img src="logo2.png" alt="이미지가 표시되지 않습니다." align="center"></a>
+    <a href="makegame.html" target="_self"><img src="unitylog.png" alt="이미지가 표시되지 않습니다." align="center"></a>
+    <nav id="topMenu" >
+      
+         <ul>
+              <li><a class="menuLink" href="#">Unity?</a></li> 
+              <li><a class="menuLink" href="unityhistory.html">History</a></li> 
+              <li><a class="menuLink" href="unitymf.html">Main function</a></li>
+               <li><a class="menuLink" href="unityreg.html">Related game</a></li> 
+             </ul> 
+            </nav>
+
+            <img src="unityim1.jpg" align="center"style="padding:10px 5px 15px 100px; ">
+            
+            
+            <h1 style="color:white;padding:10px 5px 15px 100px; ">유니티의 장점</h1>
+            
+                <h2 style="color:orange;padding:0px 30px 0px 100px;font-size: 3em;">GUI가 아주 직관적이며, 툴 사용이 서툰 사람이라도 편하게 사용하기 좋다.</h2>
+                <p onclick="changeText(this)" style="color:white;padding:0px 100px 0px 100px;font-size: 1.5em;">
+               <br><br><br>
+              하지만 한국어를 지원하지 않았다. WYSIWYG 방식의 툴은 사용자가 직관적으로 내부 에셋들 위치를 바꾸거나 적용하기 매우 편리하며, import가 매우 손쉬운 것도 큰 장점이다.<br><br>
+               향후 뒤에 릴리즈되는 게임 엔진에서 유저 친화적 UI가 얼마나 중요한지 상징적으로 보여줬으며, 매우 많은 영향을 주었다.<br><br>
+              <br><br><br><br></p>
+              <h2 style="color:orange;padding:0px 100px 0px 100px;font-size: 3em;"><br><br>버튼 몇 번만 누르면 다양한 플랫폼으로 빌드가 가능하다.</h2>
+               <br><br><br><p onclick="changeText(this)" style="color:white;padding:0px 100px 0px 100px;font-size: 1.5em;">
+              그러나 플랫폼별 특성에 맞게 어느정도 조정작업 및 별도의 최적화도 필요하다. <br><br>
+              플랫폼별로 특징이 다르므로 당연한 일이며 유나티를 쓴다고 해서 그런 조정작업이나 최적화가 자동으로 되지는 않는다. <br><br>
+              게임 하나 만들어 놓고 별다른 노력도 없이 다양한 플랫폼으로 출시할 수 있지는 않으니 반드시 유의해야 한다.<br><br>
+              <br><br><br><br></p>
+              <h2 style="color:orange;padding:0px 30px 0px 100px;font-size: 3em;">인디 게임개발자들이나 초보 개발자들에게 유리한 이점을 제공한다.</h2>
+              <br><br><br><p onclick="changeText(this)" style="color:white;padding:0px 100px 0px 100px;font-size: 1.5em;">
+               바로 애셋 스토어의 존재다. 각종 리소스부터 스크립트, 플러그인으로 사용할 수 있는 다양한 기능, 미리 만들어 놓은 AI 등 수많은 기능들을 이용자들이 올려서 서로 사고 팔 수 있는 장터를 제공한다.<br><br>
+               이 정책은 크게 성공하여 유니티 붐을 일으키는 데 일조했다. <br><br>
+              사용자가 많을수록 애셋 스토어에 더 많은 상품들이 올라오고, 그것을 본 사람들은 유니티 사용에 긍정적으로 접근하게 되고, 신규 유입된 사람들이 다시 스토어에 유니티 기능을 만들어 올리는 등 선순환 과정이 형성되어 있다. <br><br>
+              애플의 앱스토어가 아이폰 자체의 기능을 넘어서 사용자들에게 매력요소가 된 것과 비슷한 원리다.<br><br> 
+              그리고 유니티에서 운영하는 인디, 초보자들을 지원하는 프로그램등 관련된 다양한 행사가 진행된다는 점도 강점이다. <br><br>
+              엔진자체의 확장성과 맞물려 게임 이외에 방송, 애니메이션, 툴등 3D 게임엔진으로 할수 있는 각종 에셋들이 존재하며, 찾아보면 이런것도 있나 싶을 정도의 방대한 생태계를 자랑한다.<br><br></p>
+              <br><br>
+              <h2 style="color:orange;padding:0px 30px 0px 100px;font-size: 3em;">저렴한 라이센스 비용.</h2>
+               <br><br><br><p onclick="changeText(this)" style="color:white;padding:0px 100px 0px 100px;font-size: 1.5em;">
+              2017 버젼이후 영구 라이센스는 없어졌으나 개인 라이센스는 여전히 무료로 유지하고 있으며, 연매출 20만불 이하일 경우 월 40,000원대, 그 이상은 140,000원 라이센스 비용을 받는다. <br><br>
+              매출이 1억 이하일 경우는 무료 라이센스를 사용할 수 있다. 이는 각종 엔진들이 무료화 하는데 큰 영향을 끼쳤으며, 게임이 출시되더라도 별도의 라이센스 비용을 청구하지 않는다. <br><br>
+              이는 개발의 민주화라는 모토와 맞물려 게임개발의 대중화 및 인디/소규모 개발팀이 많이 생겨나는 계기를 만들어 냈다.<br><br><br>
+              
+              이러한 장점들 덕분에 벤처 기업이나 소규모 스타트업 창업을 하는 사람들 입장에서는 굉장히 유용하게 사용할 수 있으며, 2D 기능역시 최신 기능들이 계속 추가되고 있기에 2D, 3D 모두 개발이 가능하다. <br><br>
+              특히, 소규모/인디 개발에만 한정되던 초기와는 다르게 MMORPG까지 다양하게 확장하고 있는 추세이다. <br><br>
+              국내 안드로이드 매출 50위 안의 30~50% 정도가 유니티로 개발되고 있으며, 장르역시 MMORPG에서 전략/퍼즐/액션까지 다양하게 개발되고 있다.<br><br>
+            </p>
+            <script>
+                function changeText(element) {
+                  element.innerHTML = " ";
+                }
+              </script>
+   </body>
+
+</html>
