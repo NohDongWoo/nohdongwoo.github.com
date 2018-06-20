@@ -2,7 +2,7 @@
 <html lang="ko-KR"> 
 <head> 
     <meta charset="utf-8"/>
-  <title>Make A GAME! </title>
+  
  
    </head>
 
